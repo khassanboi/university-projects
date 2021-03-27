@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EFA2DB76-1560-48B1-B666-8855A99ABBD3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>RightJob</RootNamespace>
+    <AssemblyName>RightJob</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutForm.Designer.cs">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AnswerQuestionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnswerQuestionForm.Designer.cs">
+      <DependentUpon>AnswerQuestionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicantEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicantEditForm.Designer.cs">
+      <DependentUpon>ApplicantEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicantListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicantListForm.Designer.cs">
+      <DependentUpon>ApplicantListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMode.cs" />
+    <Compile Include="MyForms.cs" />
+    <Compile Include="ParentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParentForm.Designer.cs">
+      <DependentUpon>ParentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuestionAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuestionAddForm.Designer.cs">
+      <DependentUpon>QuestionAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuestionEditForm.Designer.cs">
+      <DependentUpon>QuestionEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuestionListForm.Designer.cs">
+      <DependentUpon>QuestionListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TakeTestForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TakeTestForm.Designer.cs">
+      <DependentUpon>TakeTestForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestEditForm.Designer.cs">
+      <DependentUpon>TestEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestListForm.Designer.cs">
+      <DependentUpon>TestListForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AboutForm.resx">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AnswerQuestionForm.resx">
+      <DependentUpon>AnswerQuestionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicantEditForm.resx">
+      <DependentUpon>ApplicantEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicantListForm.resx">
+      <DependentUpon>ApplicantListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParentForm.resx">
+      <DependentUpon>ParentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="QuestionAddForm.resx">
+      <DependentUpon>QuestionAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuestionEditForm.resx">
+      <DependentUpon>QuestionEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuestionListForm.resx">
+      <DependentUpon>QuestionListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TakeTestForm.resx">
+      <DependentUpon>TakeTestForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestEditForm.resx">
+      <DependentUpon>TestEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestListForm.resx">
+      <DependentUpon>TestListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\DataSources\RightJob.DAL.Applicant.datasource" />
+    <None Include="Properties\DataSources\RightJob.DAL.Question.datasource" />
+    <None Include="Properties\DataSources\RightJob.DAL.Test.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="db.sdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RightJob.DAL\RightJob.DAL.csproj">
+      <Project>{cc774350-8343-4f6e-b226-09062e94132d}</Project>
+      <Name>RightJob.DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

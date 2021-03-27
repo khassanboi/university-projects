@@ -1,0 +1,40 @@
+// COLORS
+$color-primary-dark: #003ba8;
+$color-primary-light: #0059ff;
+$color-dark: #222;
+
+// FONTS
+$font-primary: 'Poppins',
+sans-serif;
+$font-display: 'Abril Fatface',
+cursive;
+
+// BREAKPOINTS
+$bp-lg: 1199.98px;
+$bp-md: 991.98px;
+$bp-sm: 767.98px;
+$bp-xs: 575.98px;
+
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; //10px
+    font-family: $font-primary, sans-serif;
+    overflow-x: hidden;
+
+    @media only screen and (max-width: $bp-lg) {
+        font-size: 50%; //8px
+    }
+
+    @media only screen and (max-width: $bp-sm) {
+        font-size: 43.75%; //7px
+    }
+}

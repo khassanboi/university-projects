@@ -1,0 +1,14 @@
+D:\WIUT\FunPro\Assessments\CW1\RightJob\RightJob.DAL\bin\Debug\RightJob.DAL.dll.config
+D:\WIUT\FunPro\Assessments\CW1\RightJob\RightJob.DAL\bin\Debug\RightJob.DAL.dll
+D:\WIUT\FunPro\Assessments\CW1\RightJob\RightJob.DAL\bin\Debug\RightJob.DAL.pdb
+D:\WIUT\FunPro\Assessments\CW1\RightJob\RightJob.DAL\obj\Debug\RightJob.DAL.csprojAssemblyReference.cache
+D:\WIUT\FunPro\Assessments\CW1\RightJob\RightJob.DAL\obj\Debug\RightJob.DAL.csproj.CoreCompileInputs.cache
+D:\WIUT\FunPro\Assessments\CW1\RightJob\RightJob.DAL\obj\Debug\RightJob.DAL.dll
+D:\WIUT\FunPro\Assessments\CW1\RightJob\RightJob.DAL\obj\Debug\RightJob.DAL.pdb
+D:\WIUT\FunPro\Assessments\CW1\00009115\RightJob\RightJob.DAL\bin\Debug\RightJob.DAL.dll.config
+D:\WIUT\FunPro\Assessments\CW1\00009115\RightJob\RightJob.DAL\bin\Debug\RightJob.DAL.dll
+D:\WIUT\FunPro\Assessments\CW1\00009115\RightJob\RightJob.DAL\bin\Debug\RightJob.DAL.pdb
+D:\WIUT\FunPro\Assessments\CW1\00009115\RightJob\RightJob.DAL\obj\Debug\RightJob.DAL.csprojAssemblyReference.cache
+D:\WIUT\FunPro\Assessments\CW1\00009115\RightJob\RightJob.DAL\obj\Debug\RightJob.DAL.csproj.CoreCompileInputs.cache
+D:\WIUT\FunPro\Assessments\CW1\00009115\RightJob\RightJob.DAL\obj\Debug\RightJob.DAL.dll
+D:\WIUT\FunPro\Assessments\CW1\00009115\RightJob\RightJob.DAL\obj\Debug\RightJob.DAL.pdb

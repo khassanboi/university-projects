@@ -1,0 +1,30 @@
+>> DICTIONARY DATA TYPE
+>> --------------
+>> 	
+>> Do you want to get information about any country? [Type yes/no]: yes
+>> Available countries:
+>>  1) Canada
+>>  2) France
+>>  3) Kazakhstan
+>>  4) Russia
+>> Insert the name of the country: Uzbekistan
+>> 
+>> !!! Please, choose an available country!
+>> 
+>> Do you want to get information about any country? [Type yes/no]: Yes
+>> Available countries:
+>>  1) Canada
+>>  2) France
+>>  3) Kazakhstan
+>>  4) Russia
+>> Insert the name of the country: Russia
+>> 
+>>  Russia is situated in Asia and Europe. Its capital city is Moscow.
+>> --------------
+>> 
+>> Do you want to get information about any country? [Type yes/no]: no
+>> --------------
+>> 
+>>  Thank you for using this app! Good bye!
+>> 	
+>> Process finished with exit code 0

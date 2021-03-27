@@ -1,0 +1,48 @@
+.header {
+    padding: 10rem;
+    padding-bottom: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &.home {
+        padding: 3rem 10rem;
+
+        .header-image {
+            flex-basis: 35%;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .header-image {
+        text-align: center;
+    }
+
+    @media only screen and (max-width: $bp-sm) {
+        flex-direction: column-reverse;
+
+        .header-information {
+            text-align: center;
+            padding: 5rem 0;
+        }
+
+        .header-image {
+
+            img {
+                width: 50%;
+            }
+        }
+    }
+
+    @media only screen and (max-width: $bp-xs) {
+        .header-image {
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
