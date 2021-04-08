@@ -59,3 +59,5 @@ The project has been structured in a way which allows the engines to have a very
 Namely, all similar files have been grouped such as routes, page codes (pug), other services, etc. The main entry point - app.js is located in the main directory of the project. All other npm files along with git setup files are present.
 
 ### Some comments to major operating functions are present as well.
+
+### P.S. This is a clone of original repository. For detailed build history, refer to the repository through the link given above.
