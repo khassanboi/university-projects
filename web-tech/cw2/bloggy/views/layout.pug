@@ -1,0 +1,81 @@
+doctype html
+html(lang='en')
+
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    link(rel='icon' href='/icons/favicon.png')
+    link(rel='preconnect' href='https://fonts.gstatic.com')
+    link(href='https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap&family=Poppins:wght@300;400;500&display=swap&family=Englebert&display=swap' rel='stylesheet')
+    link(href='/styles/main.css' rel='stylesheet' type='text/css')
+    block title
+
+  body
+    nav.nav
+      a.logo(href='/')
+        img(src='/images/logo-main.png' alt='Bloggy Logo | created using freelogodesign.org')
+      ul#nav-bar.nav-bar
+        li.nav-item
+          a.page(href='/') Home
+        li.nav-item
+          a.page(href='/about') About
+        li.nav-item
+          a.page(href='/blogs') Blogs
+        li.nav-item
+          a.page(href='/contacts') Contacts
+        if user.isSigned
+          li#user.nav-item.user
+            a(href='/profile')
+              svg#user-icon
+                use(xlink:href='/icons/icons.svg#i-user')
+        else
+          li#sign.nav-item.sign-up
+            a#sign-button.btn.dark(href='/sign/in') Sign In
+
+      span#menu-button.menu-button
+        svg#menu-icon
+          use(xlink:href='/icons/icons.svg#i-menu')
+
+    block content
+
+    footer.footer
+      ul#nav-bar.nav-bar
+        li.nav-item
+          a.logo(href='/')
+            img(src='/images/logo-dark.png' alt='Joyee Logo | created using freelogodesign.org')
+        li.nav-item
+          a.page(href='/') Home
+        li.nav-item
+          a.page(href='/about') About
+        li.nav-item
+          a.page(href='/blogs') Blogs
+        li.nav-item
+          a.page(href='/contacts') Contacts
+      ul.socials
+        li.social-media
+          a(href='https://www.facebook.com/')
+            svg
+              use(xlink:href='/icons/icons.svg#i-facebook')
+        li.social-media
+          a(href='https://twitter.com/')
+            svg
+              use(xlink:href='/icons/icons.svg#i-twitter')
+        li.social-media
+          a(href='https://www.linkedin.com/')
+            svg
+              use(xlink:href='/icons/icons.svg#i-linkedin')
+        li.social-media
+          a(href='https://telegram.org/')
+            svg
+              use(xlink:href='/icons/icons.svg#i-telegram')
+        li.social-media
+          a(href='https://github.com/00009115/WebTech.CW2.00009115')
+            svg
+              use(xlink:href='/icons/icons.svg#i-github')
+      p.information
+        | This website was created to fulfill Web Technology module’s requirements and does not
+        | represent an actual company or service.
+      p.information The GitHub Repository can be accessed 
+        a(href='https://github.com/00009115/WebTech.CW2.00009115' target='_blank') here
+
+    script(src="/scripts/main.js") 
