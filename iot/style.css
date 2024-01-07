@@ -1,0 +1,63 @@
+
+/*basic CSS code, I think I do not have to comment*/
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+    background-color: rgb(7, 69, 163);
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(20, 20, 171);
+    font-family: sans-serif;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: all linear 0.2s;
+}
+
+a:hover {
+    background-color: rgb(22, 22, 227);
+}
+
+a.on {
+    background-color: rgb(24, 189, 24);
+}
+
+a.on:hover {
+    background-color: rgb(15, 132, 15);
+}
+
+a.off {
+    background-color: rgb(223, 45, 45);
+}
+
+a.off:hover {
+    background-color: rgb(134, 20, 20);
+}
+
+.control {
+    width: fit-content;
+    margin-bottom: 30px;
+}
+
+#myChart {
+  height: 100%;
+  width: 100%;
+  min-height: 150px;
+}

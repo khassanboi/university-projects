@@ -1,0 +1,7 @@
+D:\WIUT\Level 5\OOP\Seminars\CarStore\CarStore\bin\Debug\CarStore.exe.config
+D:\WIUT\Level 5\OOP\Seminars\CarStore\CarStore\bin\Debug\CarStore.exe
+D:\WIUT\Level 5\OOP\Seminars\CarStore\CarStore\bin\Debug\CarStore.pdb
+D:\WIUT\Level 5\OOP\Seminars\CarStore\CarStore\obj\Debug\CarStore.csproj.AssemblyReference.cache
+D:\WIUT\Level 5\OOP\Seminars\CarStore\CarStore\obj\Debug\CarStore.csproj.CoreCompileInputs.cache
+D:\WIUT\Level 5\OOP\Seminars\CarStore\CarStore\obj\Debug\CarStore.exe
+D:\WIUT\Level 5\OOP\Seminars\CarStore\CarStore\obj\Debug\CarStore.pdb
